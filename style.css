@@ -1,0 +1,39 @@
+h2{
+    display: flex;
+    justify-content:center;
+}
+#calculator{
+    border: 2px solid rgb(126, 119, 119);
+    border-radius: 5px;
+    width: 250px;
+    height: 350px;
+    background-color: rgb(69, 170, 183); 
+    
+}
+
+#display {
+  margin: 10px;
+  width: 85%;
+  font-size:35px;
+  background-color: antiquewhite;
+}
+.button_container{
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+ }
+.button {
+    width: 60px;
+    height:35px;
+    margin: 2px;
+    border-radius:4px;
+    color: blue;
+}
+.whole{
+    display: flex;
+    margin-top: 180px;;
+    justify-content:center ;
+}
+body{
+    background-image:url("calculator.jpg") ;
+}
